@@ -27,13 +27,11 @@ function displayResults(json) {
     let nameData = json[x].title;
     let directorData = json[x].director;
     let dateData = json[x].release_date;
-    let scoreData = json[x].rt_score;
     let summaryData = json[x].description;
 
     title.innerHTML = nameData;
     director.innerHTML = directorData;
     release.innerHTML = dateData;
-    rating.innerHTML = scoreData;
     description.innerHTML = summaryData;
 }
 }
